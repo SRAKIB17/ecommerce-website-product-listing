@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -19,8 +23,20 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
+}
+
+#MyCart {
+  width: 0%;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  z-index: 100;
+  top: 0%;
+  padding-top: 60px;
+  transition: 0.5s
 }
